@@ -12,8 +12,7 @@ const eqArrays = function (arr1, arr2) {
     return false;
   } else {
     return arr1.reduce((result, element, index) => {
-      if (result === false) {cv
-        cv
+      if (result === false) {
           result = true;
         } else {
           result = false;
