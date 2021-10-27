@@ -28,8 +28,9 @@ const assertArraysEqual = function (arr1, arr2) {
     log(`😞Assertion Failed: 🎌${arr1} !== ${arr2}`);
   }
 };
-const without = function(source, itemsToRemove) {
-  const filteredArray = source.filter(element => !itemsToRemove.includes(element))
-  return filteredArray
-}
-
+const without = function (source, itemsToRemove) {
+  const filteredArray = source.filter(
+    (element) => !itemsToRemove.includes(element)
+  );
+  return filteredArray;
+};

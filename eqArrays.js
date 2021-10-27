@@ -13,6 +13,9 @@ const eqArrays = function (arr1, arr2) {
   } else {
     return arr1.reduce((result, element, index) => {
       if (result === false) {
+        return result;
+      } else {
+        if (arr2[index] === element) {
           result = true;
         } else {
           result = false;
