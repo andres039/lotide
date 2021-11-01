@@ -57,3 +57,4 @@ const assertObjectsEqual = function (actual, expected) {
   console.log(eqObjects(actual, expected) === true ? winner : doubleCheck);
 };
 assertObjectsEqual({ a: ["1", 2], b: 2 }, { b: 2, a: ["1", 2] });
+module.exports = assertEqual

@@ -16,32 +16,20 @@ const map = require('./map')
 const takeUntil = require('./takeUntil') 
 const without = require('./without')
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  assertArraysEqual: assertArraysEqual,
-  assertEqual:
+  head,
+  tail,
+  middle,
+  assertArraysEqual,
   assertEqual,
-  assertObjectEqual:
   assertObjectEqual,
-  countLetters:
   countLetters,
-  countOnly:
   countOnly,
-  eqArrays:
   eqArrays,
-  eqObjects:
   eqObjects,
-  findKey:
   findKey,
-  findKeyByValue:
   findKeyByValue,
-  letterPosistions:
   letterPosistions,
-  map:
   map,
-  takeUntil:
   takeUntil,
-  without:
-  without,
+  without
 };
