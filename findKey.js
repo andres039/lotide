@@ -15,3 +15,4 @@ const findKey = function (object, callBack) {
     }
   }
 };
+module.exports = findKey

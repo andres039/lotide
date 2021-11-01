@@ -34,3 +34,4 @@ const without = function (source, itemsToRemove) {
   );
   return filteredArray;
 };
+module.exports = without

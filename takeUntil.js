@@ -39,3 +39,4 @@ const takeUntil = function (obj, callBack) {
   }
   return result;
 };
+module.exports = takeUntil
