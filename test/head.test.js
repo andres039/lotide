@@ -9,6 +9,6 @@ describe('#head', () => {
     assert.strictEqual(head(['5']), '5')
   })
   it('returns  2 for [2, 3, 4, 6]', () => {
-    assert.strictEqual(head[2, 3, 4, 6])
+    assert.strictEqual(head([2, 3, 4, 6]), 2)
   })
 })
