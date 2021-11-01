@@ -7,3 +7,6 @@ const assertEqual = function(actual, expected) {
     log(`😞Assertion Failed: 🎌${actual} !== ${expected}`);
   }
 };
+
+module.exports = assertEqual
+
